@@ -1,5 +1,26 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
   margin: 0;
   line-height: 1.5;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+  body {
+    margin: 0;
+  }
+
+  header {
+    padding: .5rem 0;
+    background-color: #ccc;
+    text-align: center;
+  }
