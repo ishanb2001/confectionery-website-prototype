@@ -21,6 +21,33 @@ html {
 
   header {
     padding: .5rem 0;
-    background-color: #ccc;
+    background-color: #FFC0CB;
     text-align: center;
   }
+
+  h1 {
+  margin: 0 0 .5rem;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #FF69B4;
+}
