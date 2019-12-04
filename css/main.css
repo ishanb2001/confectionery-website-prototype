@@ -17,6 +17,7 @@ html {
 
   body {
     margin: 0;
+    font-family: "Montserrat";
   }
 
   header {
@@ -52,20 +53,38 @@ nav a:hover {
   color: #fff;
 }
 
-.main-image{
-  width: 100%;
-}
 
 img{
   width: 100%;
 }
 
+.banner {
+  position: relative;
+  text-align: left;
+}
+
+.img-flex {
+  display: block;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  max-width: 29em;
+  width: 100%;
+  text-align:center;
+  color: #fff;
+  padding: 0 1.5rem;
+  background-color: rgba(0, 0, 0, .5);
+  line-height: 1.2;
+  transform: translateX(-50%);
+  top: 6em;
+}
+
 .person-icon{
   width: 4%;
   float: right;
-
 }
-
 
 .row{
   width: 70%;
