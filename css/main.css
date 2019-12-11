@@ -68,7 +68,6 @@ img{
 }
 
 .content {
-  position: absolute;
   left: 50%;
   max-width: 29em;
   width: 100%;
@@ -78,7 +77,11 @@ img{
   background-color: rgba(0, 0, 0, .5);
   line-height: 1.2;
   transform: translateX(-50%);
-  top: 6em;
+  top: -8em;
+  position: relative;
+  text-align: left;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .person-icon{
@@ -153,7 +156,7 @@ text-align: center;
 
 .btn:hover {
   background-color: #666;
-  color: #eee9de;
+  color: #fff;
 }
 
 .bottom-image{
@@ -161,8 +164,14 @@ text-align: center;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
   display: block;
-  width: 23em;
+  width: 30%;
 }
+
+section{
+  margin-top: 3em;
+  margin-left: 11em;
+}
+
 
 @media only screen and (min-width: 30em){
 
@@ -171,6 +180,7 @@ text-align: center;
     text-align: center;
   }
 }
+
 
 @media only screen and (min-width: 50em) {
 
