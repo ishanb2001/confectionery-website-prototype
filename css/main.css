@@ -173,6 +173,27 @@ section{
   margin-left: 11em;
 }
 
+@media only screen and (min-width: 2em){
+
+  .content {
+    left: 50%;
+    max-width: 29em;
+    width: 90%;
+    text-align:center;
+    color: #fff;
+    padding: 0 1.5rem;
+    background-color: rgba(0, 0, 0, .5);
+    line-height: 1.2;
+    transform: translateX(-50%);
+    top: -10em;
+    position: relative;
+    text-align: left;
+    max-height: 500px;
+    overflow: hidden;
+    display: inline-block;
+  }
+}
+
 
 @media only screen and (min-width: 30em){
 
@@ -207,6 +228,7 @@ section{
     font-size: 130%;
   }
 }
+
 
 header {
   padding-left: 1rem;
