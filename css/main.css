@@ -77,11 +77,12 @@ img{
   background-color: rgba(0, 0, 0, .5);
   line-height: 1.2;
   transform: translateX(-50%);
-  top: -8em;
+  top: -15em;
   position: relative;
   text-align: left;
   max-height: 500px;
   overflow: hidden;
+  display: inline-block;
 }
 
 .person-icon{
@@ -182,6 +183,7 @@ section{
 }
 
 
+
 @media only screen and (min-width: 50em) {
 
   html {
@@ -190,6 +192,7 @@ section{
   }
 }
 
+
 @media only screen and (min-width: 70em) {
 
   html {
@@ -197,6 +200,7 @@ section{
     line-height: 1.4;
   }
 }
+
 @media only screen and (min-width: 90em) {
 
   html {
