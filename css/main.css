@@ -49,7 +49,6 @@ img {
   margin: 0em;
   display: inline-block;
   margin-left: 13em;
-  display: stretch;
 }
 
 header {
@@ -137,6 +136,11 @@ nav a:hover {
     width: 45%;
   }
 
+.center{
+  margin-top: -10em;
+}
+
+
   .content {
     top: -10rem;
 
@@ -153,6 +157,10 @@ nav a:hover {
     font-size: 110%;
     line-height: 1.4;
     position: absolute;
+  }
+
+  .center{
+    margin-top: -5em;
   }
 
   nav li {
@@ -175,6 +183,10 @@ nav a:hover {
     display: flex;
   }
 
+  .center{
+    margin-top: -5em;
+  }
+
   h1 {
     font-size: 120%;
   }
@@ -189,6 +201,10 @@ nav a:hover {
 
   html {
     font-size: 130%;
+  }
+
+  .center{
+    margin-top: -5em;
   }
 
   header {
