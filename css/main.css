@@ -23,7 +23,7 @@ body {
 }
 
 .cards:hover {
-  box-shadow: 3px 3px 10px #333;
+  box-shadow: 9px 9px 15px #333;
 }
 
 .picture img {
@@ -32,6 +32,10 @@ body {
 
 img {
   width: 100%;
+}
+
+.card.img{
+  border-radius: 15px;
 }
 
 .logo{
@@ -60,6 +64,8 @@ img {
   background-color: #333;
   margin: 0em;
   display: inline-block;
+  border-radius: 15px;
+  border: 6px solid #ccc;
 }
 
 header {
@@ -104,6 +110,7 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: .75em;
+  box-shadow: 9px 9px 15px #333;
 }
 
 nav ul {
@@ -116,6 +123,8 @@ nav ul {
   width: 60%;
   margin-left: 60px;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 p{
   padding-bottom: 2em;
@@ -170,14 +179,30 @@ nav a:hover {
   padding-top: 2em;
   display: inline-block;
   text-align: left;
-  width: 100%;
+  width: 20%;
   max-width: 23em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text{
+  margin-top: 5em;
+  margin-left: 16em;
+}
+
+
+.wrapper{
+  margin-left: 5em;
 }
 
 span{
   top: 100px;
   left: 90%;
   width: 100%;
+}
+
+.center{
+  margin-top: -5em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -188,8 +213,16 @@ span{
     width: 45%;
   }
 
+
+
+  h4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em
+  }
+
 .center{
-  margin-top: -10em;
+  margin-top: -5em;
 }
 
 
@@ -211,6 +244,13 @@ span{
     position: absolute;
   }
 
+
+  h4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 19em
+  }
+
   .center{
     margin-top: -5em;
   }
@@ -227,6 +267,14 @@ span{
     font-size: 120%;
     line-height: 1.5;
   }
+  h4{
+
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em
+}
+
 
   header {
     align-items: center;
@@ -255,8 +303,14 @@ span{
     font-size: 130%;
   }
 
+
   .center{
     margin-top: -5em;
+  }
+  h4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em
   }
 
   header {
