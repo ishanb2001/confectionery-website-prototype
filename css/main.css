@@ -120,9 +120,9 @@ nav ul {
 }
 
 .big-image{
-  width: 60%;
-  margin-left: 60px;
-  margin-top: 50px;
+  width: 40%;
+  /*margin-left: 60px;
+  margin-top: 50px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -175,12 +175,11 @@ nav a:hover {
 }
 
 .big-image{
-  padding-bottom: 1em;
+  /*padding-bottom: 1em;
   padding-top: 2em;
   display: inline-block;
-  text-align: left;
-  width: 20%;
-  max-width: 23em;
+  text-align: left; */
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
