@@ -17,7 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   margin: 0;
 }
@@ -34,11 +33,11 @@ img {
   width: 100%;
 }
 
-.card.img{
+.card.img {
   border-radius: 15px;
 }
 
-.logo{
+.logo {
   width: 5%;
 }
 
@@ -51,18 +50,17 @@ img {
   display: block;
 }
 
-.center{
+.center {
   margin: 0;
   flex-direction: row;
   align-items: stretch;
   list-style-type: none;
   display: flex;
-
 }
 
 .cards {
   background-color: #333;
-  margin: 0em;
+  margin: 0;
   display: inline-block;
   border-radius: 15px;
   border: 6px solid #ccc;
@@ -79,9 +77,10 @@ h1 {
   font-size: 1.5rem;
 }
 
-h2{
+h2 {
   color: #333;
 }
+
 .content {
   left: 50%;
   max-width: 29em;
@@ -119,30 +118,21 @@ nav ul {
   list-style-type: none;
 }
 
-.big-image{
-  width: 40%;
-  /*margin-left: 60px;
-  margin-top: 50px; */
-  margin-left: auto;
-  margin-right: auto;
-}
-p{
+p {
   padding-bottom: 2em;
-  font-size: 0.5rem;
+  font-size: .5rem;
   text-align: center;
 }
 
-.text{
-  float: left;
-}
 nav li {
   text-align: left;
 }
 
-h3{
+h3 {
   color: #fff;
   text-align: center;
 }
+
 nav a {
   display: block;
   padding: .5em .75em;
@@ -151,57 +141,47 @@ nav a {
   position: relative;
 }
 
-.description{
+.description {
   color: #fff;
 }
 
-.btn{
+.btn {
   padding: .75em;
   border: 3px solid #333;
   font-size: 1.125em;
-  border-radius: 7px;
-  font-family: "Lato", "sans-serif";
   margin-bottom: 2rem;
   border-radius: 9px;
   background-color: #fff;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #333;
 }
+
 nav a:hover {
   background-color: #333;
   color: #fff;
 }
 
-.big-image{
-  /*padding-bottom: 1em;
-  padding-top: 2em;
-  display: inline-block;
-  text-align: left; */
+.big-image {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.text{
+.text {
   margin-top: 5em;
   margin-left: 16em;
 }
 
-
-.wrapper{
+.wrapper {
   margin-left: 5em;
 }
 
-span{
+span {
   top: 100px;
   left: 90%;
   width: 100%;
-}
-
-.center{
-  margin-top: -5em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -212,18 +192,15 @@ span{
     width: 45%;
   }
 
-
-
   h4 {
     margin-left: auto;
     margin-right: auto;
-    width: 12em
+    width: 12em;
   }
 
-.center{
-  margin-top: -5em;
-}
-
+  .center {
+    margin-top: -5em;
+  }
 
   .content {
     top: -10rem;
@@ -243,14 +220,13 @@ span{
     position: absolute;
   }
 
-
   h4 {
     margin-left: auto;
     margin-right: auto;
-    width: 19em
+    width: 19em;
   }
 
-  .center{
+  .center {
     margin-top: -5em;
   }
 
@@ -266,14 +242,12 @@ span{
     font-size: 120%;
     line-height: 1.5;
   }
-  h4{
 
-
-  margin-left: auto;
-  margin-right: auto;
-  width: 30em
-}
-
+  h4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+  }
 
   header {
     align-items: center;
@@ -282,7 +256,7 @@ span{
     display: flex;
   }
 
-  .center{
+  .center {
     margin-top: -5em;
   }
 
@@ -302,14 +276,14 @@ span{
     font-size: 130%;
   }
 
-
-  .center{
+  .center {
     margin-top: -5em;
   }
-  h4{
+
+  h4 {
     margin-left: auto;
     margin-right: auto;
-    width: 45em
+    width: 45em;
   }
 
   header {
