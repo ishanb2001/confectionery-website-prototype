@@ -34,6 +34,10 @@ img {
   width: 100%;
 }
 
+.logo{
+  width: 5%;
+}
+
 .banner {
   position: relative;
   text-align: left;
@@ -43,12 +47,19 @@ img {
   display: block;
 }
 
+.center{
+  margin: 0;
+  flex-direction: row;
+  align-items: stretch;
+  list-style-type: none;
+  display: flex;
+
+}
+
 .cards {
-  width: 25%;
   background-color: #333;
   margin: 0em;
   display: inline-block;
-  margin-left: 13em;
 }
 
 header {
@@ -62,17 +73,18 @@ h1 {
   font-size: 1.5rem;
 }
 
+h2{
+  color: #333;
+}
 .content {
   left: 50%;
   max-width: 29em;
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: #333;
   padding: 0 1.5rem;
-  background-color: rgba(0, 0, 0, .5);
   line-height: 1.2;
   transform: translateX(-50%);
-  top: -15em;
   position: relative;
   max-height: 500px;
   overflow: hidden;
@@ -87,9 +99,11 @@ h1 {
 footer {
   background-color: #333;
   color: #ccc;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: .75em;
 }
 
 nav ul {
@@ -99,13 +113,14 @@ nav ul {
 }
 
 .big-image{
-  width: 20%;
+  width: 60%;
   margin-left: 60px;
   margin-top: 50px;
 }
 p{
   padding-bottom: 2em;
-  display: inline-block;
+  font-size: 0.5rem;
+  text-align: center;
 }
 
 .text{
@@ -115,6 +130,10 @@ nav li {
   text-align: left;
 }
 
+h3{
+  color: #fff;
+  text-align: center;
+}
 nav a {
   display: block;
   padding: .5em .75em;
@@ -123,9 +142,42 @@ nav a {
   position: relative;
 }
 
+.description{
+  color: #fff;
+}
+
+.btn{
+  padding: .75em;
+  border: 3px solid #333;
+  font-size: 1.125em;
+  border-radius: 7px;
+  font-family: "Lato", "sans-serif";
+  margin-bottom: 2rem;
+  border-radius: 9px;
+  background-color: #fff;
+}
+
+.btn:hover{
+  background-color: #333;
+}
 nav a:hover {
   background-color: #333;
   color: #fff;
+}
+
+.big-image{
+  padding-bottom: 1em;
+  padding-top: 2em;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  max-width: 23em;
+}
+
+span{
+  top: 100px;
+  left: 90%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
